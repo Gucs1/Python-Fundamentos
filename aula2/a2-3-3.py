@@ -30,13 +30,19 @@ print(dicionario['nome'])
 print(dicionario['sobrenome'])
 print(dicionario['idade'])
 
-# adicionando um novo conjunto d chave;valor
+# adicionando um novo conjunto d chave:valor
 dicionario['cpf'] = '5912390817'
 print(dicionario['cpf'])
 
-clientes = {}
+# 
+cliente = {}
 clientes2 = {'nome':'', 'sobrenome':'', 'idade':19}
 
-clientes['nome']= input('Digite seu nome: ')
-clientes['sobrenome']= input('Digite o sobrenome: ')
-clientes['nome']= int(input('Digite a idade: '))
+cliente['nome']= input('Digite seu nome: ')
+cliente['sobrenome']= input('Digite o sobrenome: ')
+cliente['idade']= int(input('Digite a idade: '))
+
+print(cliente)
+# deletando uma chave dicionario de um dicionario
+del(cliente['idade'])
+print(cliente)
