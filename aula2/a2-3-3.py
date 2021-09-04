@@ -34,9 +34,8 @@ print(dicionario['idade'])
 dicionario['cpf'] = '5912390817'
 print(dicionario['cpf'])
 
-# 
 cliente = {}
-clientes2 = {'nome':'', 'sobrenome':'', 'idade':19}
+cliente2 = {'nome':'', 'sobrenome':'', 'idade':19}
 
 cliente['nome']= input('Digite seu nome: ')
 cliente['sobrenome']= input('Digite o sobrenome: ')
@@ -46,3 +45,10 @@ print(cliente)
 # deletando uma chave dicionario de um dicionario
 del(cliente['idade'])
 print(cliente)
+
+cliente2['nome']= input('Digite seu nome: ')
+cliente2['sobrenome']= input('Digite o sobrenome: ')
+cliente2['idade']= int(input('Digite a idade: '))
+
+clientes = [cliente, cliente2]
+print(clientes)
