@@ -11,9 +11,3 @@ r = soma(5, 8)
 print(r)
 
 
-def sub(numero1 , numero2):
-    resultado = numero1 - numero2
-    return resultado
-
-rs = sub(5, 8)
-print(rs)
