@@ -28,5 +28,7 @@ def div(numero1, numero2):
     resultado = numero1 / numero2
     print(resultado)
 
-somar(5 + 5)
-
+somar(10, 12)
+sub(10, 12)
+mult(10, 12)
+div(10, 12) 
